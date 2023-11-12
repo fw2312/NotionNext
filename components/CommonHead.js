@@ -18,6 +18,7 @@ const CommonHead = ({ meta, children }) => {
   return (
         <Head>
             <title>{title}</title>
+            <script async data-id="8115745167" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
             <meta name="theme-color" content={BLOG.BACKGROUND_DARK} />
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0" />
             <meta name="robots" content="follow, index" />
